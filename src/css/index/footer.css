@@ -28,15 +28,14 @@
 .footer-site-redes {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
 }
 
 .contato-flex {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 10px;
   margin-top: 10px;
-  margin-bottom: 20px;
 }
 
 .redes-flex {
@@ -47,7 +46,7 @@
 }
 
 .img-redes {
-  max-width: 50px;
+  max-width: 30px;
 }
 
 .footer-color {
@@ -59,12 +58,12 @@
   align-items: center;
   justify-content: space-between;
   gap: 100px;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .aside-redes-flex {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 10px;
 }
