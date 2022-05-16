@@ -1,0 +1,17 @@
+@import "./reset/reset.css";
+@import "./global/var.css";
+@import "./global/global.css";
+
+@import "./nav/nav.css";
+@import "./index/index.css";
+@import "./index/footer.css";
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: "IBM Plex Mono", monospace;
+  height: 2000px;
+}

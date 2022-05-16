@@ -1,0 +1,36 @@
+.container-header {
+  max-width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.logomarca {
+  width: 250px;
+  padding-left: 15px;
+}
+
+.nav-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-flex {
+  display: flex;
+  gap: 5px;
+}
+
+.menu-flex li a {
+  padding: 5px 15px;
+}
+
+.img-capa {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.titulo-principal {
+  text-align: center;
+  padding: 50px 0;
+}

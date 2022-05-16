@@ -4,20 +4,190 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=\, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Audiophile</title>
 
-  <link rel="shortcut icon" href="png/sound-bars.png" type="image/png">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="./src/imgs/png/sound-bars.png" type="image/png">
+  <link rel="stylesheet" href="./src/css/style.css">
+
+
+
 </head>
 
-<body>
+<body class="bg-color">
+  <header class="bg-color-light">
+    <div class="container-header nav-flex">
+      <picture>
+        <img class="logomarca" src="./src/imgs/png/Logo.png" alt="Logo Audiophile">
+      </picture>
+      <nav>
+        <ul class="menu-flex">
+          <li class="font-size-s text-color-dark"><a href="/produtos">Produtos</a></li>
+          <li class="font-size-s text-color-dark"><a href="/contato">Contato</a></li>
+          <li class="font-size-s text-color-dark"><a href="/sobre">Sobre</a></li>
+          <li class="font-size-s text-color-dark"><a href="/perguntas">Perguntas</a></li>
+          <li class="font-size-s text-color-dark"><a href="/termos">Termos</a></li>
 
+        </ul>
+      </nav>
+    </div>
+  </header>
 
+  <main>
+    <picture>
+      <img class="img-capa" src="./src/imgs/img/capa-index.jpg" alt="">
+    </picture>
+    <h1 class="font-size-xxl titulo-principal text-color-dark">Categorias de Produtos</h1>
 
+    <section class="container">
+      <div class="catalogo-grid">
+        <picture class="container-img">
+          <img class="catalogo-img object-right" src="src/imgs/img/headphone/headphone3.jpg" alt="">
+        </picture>
+        <div class="catalogo-flex bg-color-dark">
+          <h2 class="text-color-light font-size-l">Headphones</h2>
+          <p class="text-color-light font-size-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, at velit quis reprehenderit aspernatur veritatis harum omnis autem amet porro voluptas recusandae obcaecati esse fugit mollitia sapiente hic sint? Corporis?</p>
+          <a class="button font-size-xs text-color-dark" href="/conheca-mais">Conheça Mais</a>
+        </div>
 
+        <div class="catalogo-flex bg-color-dark">
+          <h2 class="text-color-light font-size-l">Earphones</h2>
+          <p class="text-color-light font-size-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, at velit quis reprehenderit aspernatur veritatis harum omnis autem amet porro voluptas recusandae obcaecati esse fugit mollitia sapiente hic sint? Corporis?</p>
+          <a class="button font-size-xs text-color-dark" href="/conheca-mais">Conheça Mais</a>
+        </div>
+        <picture class="container-img">
+          <img class="catalogo-img" src="src/imgs/img/earphone/earphone2.jpg" alt="">
+        </picture>
 
+        <picture class="container-img">
+          <img class="catalogo-img" src="src/imgs/img/speaker/speaker4.jpg" alt="">
+        </picture>
+        <div class="catalogo-flex bg-color-dark">
+          <h2 class="text-color-light font-size-l">Speakers</h2>
+          <p class="text-color-light font-size-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, at velit quis reprehenderit aspernatur veritatis harum omnis autem amet porro voluptas recusandae obcaecati esse fugit mollitia sapiente hic sint? Corporis?</p>
+          <a class="button font-size-xs text-color-dark" href="/conheca-mais">Conheça Mais</a>
+        </div>
 
+        <div class="catalogo-flex bg-color-dark">
+          <h2 class="text-color-light font-size-l">Studio</h2>
+          <p class="text-color-light font-size-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, at velit quis reprehenderit aspernatur veritatis harum omnis autem amet porro voluptas recusandae obcaecati esse fugit mollitia sapiente hic sint? Corporis?</p>
+          <a class="button font-size-xs text-color-dark" href="/conheca-mais">Conheça Mais</a>
+        </div>
+        <picture class="container-img">
+          <img class="catalogo-img object-left" src="src/imgs/img/monitor/caixa2.jpg" alt="">
+        </picture>
+
+        <picture class="container-img">
+          <img class="catalogo-img" src="src/imgs/img/tws/tws1.jpg" alt="">
+        </picture>
+        <div class="catalogo-flex bg-color-dark">
+          <h2 class="text-color-light font-size-l">Wireless</h2>
+          <p class="text-color-light font-size-xs">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, at velit quis reprehenderit aspernatur veritatis harum omnis autem amet porro voluptas recusandae obcaecati esse fugit mollitia sapiente hic sint? Corporis?</p>
+          <a class="button font-size-xs text-color-dark" href="/conheca-mais">Conheça Mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="primary-color">
+      <div class="comentarios-flex text-color-dark">
+        <div class="comentarios">
+          <img class="comentarios-img" src="src/imgs/img/perfil1.jpg" alt="">
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quidem nemo harum aliquid optio. Rem at nesciunt, quod praesentium dolores culpa non dolor eaque aperiam eum, quaerat ipsam sapiente quas"</p>
+          <span class="font-size-xs">Gustavo Monteiro</span>
+        </div>
+
+        <div class="comentarios">
+          <img class="comentarios-img" src="src/imgs/img/perfil1.jpg" alt="">
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quidem nemo harum aliquid optio. Rem at nesciunt, quod praesentium dolores culpa non dolor eaque aperiam eum."</p>
+          <span class="font-size-xs">Joao Fulano</span>
+        </div>
+
+        <div class="comentarios">
+          <img class="comentarios-img" src="src/imgs/img/perfil1.jpg" alt="">
+          <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quidem nemo harum aliquid optio. Rem at nesciunt, quod praesentium dolores culpa non dolor eaque aperiam eum, quaerat ipsam sapiente quas. Rem at nesciunt, quod praesentium dolores culpa non dolor eaque aperiam eum."</p>
+          <span class="font-size-xs">Marcos Alberto</span>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-color">
+      <div class="container footer-flex text-color-dark">
+        <div class="footer-site-flex">
+          <div>
+            <h3 class="font-size-m">Produtos</h3>
+            <ul class="footer-lista font-size-xs">
+              <li><a href="/conheca-mais">Headphones</a></li>
+              <li><a href="/conheca-mais">Earphones</a></li>
+              <li><a href="/conheca-mais">Speaker</a></li>
+              <li><a href="/conheca-mais">Studio</a></li>
+              <li><a href="/conheca-mais">Wireless</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-size-m">Mapa do site</h3>
+            <ul class="footer-lista font-size-xs">
+              <li><a href="/produtos">Produtos</a></li>
+              <li><a href="/contato">Contato</a></li>
+              <li><a href="/sobre">Sobre</a></li>
+              <li><a href="/perguntas">Perguntas Frequentes</a></li>
+              <li><a href="/termos">Termos e Condições</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="font-size-m">Sac</h3>
+          <ul class="contato-flex font-size-xxs">
+            <li>vendas@audiophile.com.br</li>
+            <li>suporte@audiophile.com.br</li>
+            <li>+55 (11) 99999-9999</li>
+          </ul>
+          <h3 class="font-size-m">Horario:</h3>
+          <ul class="contato-flex font-size-xxs">
+            <li>Seg. à Sex. das 8h às 18h</li>
+            <li>Sáb. das 9h às 12h</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="footer-site-redes">
+            <div class="redes-flex">
+              <li class="font-size-m"><a href="#">Facebook</a></li>
+              <img class="img-redes" src="src/imgs/png/facebook.png" alt="">
+            </div>
+            <div class="redes-flex">
+              <li class="font-size-m"><a href="#">Instagram</a></li>
+              <img class="img-redes" src="src/imgs/png/instagram.png" alt="">
+            </div>
+            <div class="redes-flex">
+              <li class="font-size-m"><a href="#">Twitter</a></li>
+              <img class="img-redes" src="src/imgs/png/twitter.png" alt="">
+            </div>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <aside class="bg-color-light">
+      <div class="container aside-flex text-color-dark">
+        <p class="font-size-s">Site Criado por Gustavo Monteiro</p>
+        <div class="aside-flex">
+          <div class="aside-redes-flex">
+            <a class="font-size-m" target="_blank" href="https://github.com/GustavoCMonteiro">GitHub</a>
+            <img class="img-redes" src="src/imgs/png/github.png" alt="">
+          </div>
+          <div class="aside-redes-flex">
+            <a class="font-size-m" target="_blank" href="https://www.linkedin.com/in/gustavocmonteiro/">Linkedin</a>
+            <img class="img-redes" src="src/imgs/png/linkedin.png" alt="">
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
 
 </body>
 
