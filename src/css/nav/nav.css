@@ -2,11 +2,11 @@
   max-width: 1440px;
   height: 70px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .logomarca {
   width: 250px;
-  padding-left: 15px;
 }
 
 .nav-flex {
