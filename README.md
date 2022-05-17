@@ -31,7 +31,7 @@
 ### O CSS foi dividido por páginas e com alguns arquivos globais, para melhor organização, foi criado o arquivo somente com as variaveis de cores e tamanhos de fonte, tambem arquivos com estilos usados em todo o site.
 ### O Site está totalmente responsivo, para todos os tipos de dispositivos, tudo feito com um bom uso de flexbox e Grid Layout. Seguem abaixo videos do site em dispositivos móveis.
 <br>
-<div justify="space-evenly">
-  <img height="500em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20mobile%20gif1.gif"/>
+<div>
+  <img height="500em" margin-right="100em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20mobile%20gif1.gif"/>
   <img height="500em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20mobile%20gif2.gif"/>
 </div>
