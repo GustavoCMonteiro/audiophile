@@ -1,8 +1,30 @@
-.carrossel {
+.carousel-container {
   height: 500px;
   width: 100%;
+  margin-bottom: 10px;
+}
+
+.img-carousel img {
+  width: 100%;
+  height: 500px;
   object-fit: cover;
-  margin-bottom: 50px;
+  animation: fade 1.5s;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 4px;
+  background-color: var(--bg-color-light);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.dot-active {
+  background-color: var(--primary-color);
 }
 
 .produtos-grid {
@@ -54,7 +76,10 @@
 }
 
 @media (max-width: 1000px) {
-  .carrossel {
+  .carousel-container {
+    height: 300px;
+  }
+  .img-carousel img {
     height: 300px;
   }
   .produtos-grid {
@@ -67,5 +92,14 @@
   .produtos-grid {
     grid-template-columns: 1fr;
     gap: 20px;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

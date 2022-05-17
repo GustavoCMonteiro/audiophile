@@ -60,6 +60,7 @@
 
 .acordion-text {
   display: none;
+  border-radius: 0 0 5px 5px;
 }
 
 @media (max-width: 1440px) {

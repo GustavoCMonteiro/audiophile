@@ -3,7 +3,7 @@
 }
 
 @media (max-width: 1000px) {
-  .menu-button.desactive {
+  .menu-button.inactive {
     display: block;
     background-color: rgba(0, 0, 0, 0);
     border: none;
@@ -11,10 +11,10 @@
     cursor: pointer;
     padding: 15px;
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
-  .menu-button.desactive::before {
+  .menu-button.inactive::before {
     content: "";
     display: inline-block;
     height: 5px;
@@ -32,7 +32,7 @@
     cursor: pointer;
     padding: 15px;
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 
   .menu-button.active::before {
@@ -67,21 +67,21 @@
     width: 120px;
     background-color: var(--bg-color-light);
     z-index: 5;
-    top: 70px;
+    top: 60px;
     right: 0px;
     padding: 10px 30px;
   }
 
   .menu-flex.active {
     display: block;
-    animation: showMenu2 0.5s forwards;
+    animation: showMenu 0.5s forwards;
   }
 }
 
 @keyframes showMenu {
   from {
     opacity: 0;
-    transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -60px, 0);
   }
   to {
     opacity: 1;
@@ -91,27 +91,33 @@
 
 @keyframes clickMenu1 {
   from {
+    opacity: 0;
     transform: rotate(0deg);
   }
   to {
+    opacity: 1;
     transform: rotate(135deg);
   }
 }
 
 @keyframes clickMenu2 {
   from {
+    opacity: 0;
     transform: rotate(0deg);
   }
   to {
+    opacity: 1;
     transform: rotate(-135deg);
   }
 }
 
 @keyframes clickMenu {
   from {
+    opacity: 0;
     transform: rotate(0deg);
   }
   to {
+    opacity: 1;
     transform: rotate(180deg);
   }
 }

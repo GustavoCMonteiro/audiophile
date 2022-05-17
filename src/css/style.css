@@ -1,10 +1,11 @@
 /* globais */
 @import "./reset/reset.css";
-@import "./global/global.css";
 @import "./global/var.css";
+@import "./global/global.css";
 @import "./global/footer.css";
 @import "./global/header.css";
 @import "./global/menu-mobile.css";
+@import "./global/animation.css";
 
 /* pag principal */
 @import "./paginas/index.css";
