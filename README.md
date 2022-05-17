@@ -20,12 +20,11 @@
 ## Criação e Prototypo
 
 ### Toda a parte de Design foi feita por mim, busca de referências, escolha de imagens, escolha de cores, tipografia, layout, etc. Segue um pequeno vídeo mostrando a prancheta do Figma.
-
+<br>
 <img height="500em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20figma.gif"/>
-
-
+<br>
 ## HTML e JSS
 
 ### O HTML foi feito todo na base semantica, sempre deixando bem limpo e organizado. O CSS foi dividido por páginas e com alguns arquivos globais, para melhor organização, foi criado o arquivo somente com as variaveis e cores e tamanhos de fonte, tambem arquivos com estilos usados em todo o site.
-O Site está totalmente responsivo, para todos os tipos de dispositivos, tudo feito com um bom uso de flexbox e Grid Layout. Seguem abaixo videos do site em dispositivos móveis.
+### O Site está totalmente responsivo, para todos os tipos de dispositivos, tudo feito com um bom uso de flexbox e Grid Layout. Seguem abaixo videos do site em dispositivos móveis.
 
