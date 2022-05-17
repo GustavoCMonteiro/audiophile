@@ -13,3 +13,6 @@
   
  ### Link da Demo do site : [Audiophile](https://gustavocmonteiro.github.io/audiophile/)
  
+ ### Descrição
+ 
+ Projeto desenvolvido para colocar em teste os meus conhecimentos em HTML, CSS, e JavaScript.
