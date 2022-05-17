@@ -15,5 +15,5 @@
  
 ### Descrição
 <div width="20px">
-#### Projeto desenvolvido para colocar em teste os meus conhecimentos em HTML, CSS, e JavaScript, Utilizando um tema do qual sou familizariado.
+Projeto desenvolvido para colocar em teste os meus conhecimentos em HTML, CSS, e JavaScript, Utilizando um tema do qual sou familizariado.
 </div>
