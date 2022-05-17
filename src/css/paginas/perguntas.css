@@ -1,6 +1,6 @@
 .perguntas {
   max-width: 800px;
-  margin: 50px auto;
+  margin: 50px 0;
 }
 
 .acordion {
@@ -60,4 +60,23 @@
 
 .acordion-text {
   display: none;
+}
+
+@media (max-width: 1440px) {
+  .perguntas {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .perguntas {
+    margin: 20px auto;
+    padding: 0;
+  }
+  .perguntas h2 {
+    font-size: 1.25rem;
+  }
+  .perguntas h2::before {
+    top: 16px;
+  }
 }
