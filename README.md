@@ -1,4 +1,4 @@
-# Projeto Pessoal site de disopsitivos de audio!
+# Projeto Pessoal site de dispositivos de audio!
 
 ## Link da Demo do site : [Audiophile](https://gustavocmonteiro.github.io/audiophile/)
 
@@ -15,4 +15,4 @@
  
 ### Descrição
  
-#### Projeto desenvolvido para colocar em teste os meus conhecimentos em HTML, CSS, e JavaScript.
+#### Projeto desenvolvido para colocar em teste os meus conhecimentos em HTML, CSS, e JavaScript, Utilizando um tema do qual sou familizariado.
