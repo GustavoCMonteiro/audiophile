@@ -15,7 +15,7 @@
  
 ## Descrição
 
-### Projeto desenvolvido com o objetivo de treinar os meus conhecimentos em HTML, CSS, e JavaScript, e tambem para servir de portifólio, demonstrando minhas habilidades na criação de uma página.
+### Projeto desenvolvido com o objetivo de treinar os meus conhecimentos em HTML, CSS, e JavaScript, e também para servir de portfólio, demonstrando minhas habilidades na criação de uma página.
 
 ## Criação e Prototipo
 
@@ -27,9 +27,12 @@
 
 ## HTML e CSS
 
-### O HTML foi feito todo na base semantica, sempre deixando bem limpo e organizado. 
-### O CSS foi dividido por páginas e com alguns arquivos globais para melhor organização, foi criado o arquivo somente com as variaveis de cores e tamanhos de fonte, tambem arquivos com estilos usados em todo o site.
-### O Site está totalmente responsivo, para todos os tipos de dispositivos, tudo feito com um bom uso de flexbox e Grid Layout. Seguem abaixo videos do site em dispositivos móveis.
+### O HTML foi feito todo na base semântica, sempre deixando bem limpo e organizado. 
+
+### O CSS foi dividido por páginas e com alguns arquivos globais para melhor organização, foi criado o arquivo somente com as variáveis de cores e tamanhos de fonte, também arquivos com estilos usados em todo o site.
+
+### O Site está totalmente responsivo, para todos os tipos de dispositivos, tudo feito com um bom uso de flexbox e Grid Layout. Seguem abaixo vídeos do site em dispositivos móveis.
+
 <br>
 <div>
   <img height="500em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20mobile%20gif1.gif"/>
@@ -40,5 +43,6 @@
 
 ## JavaScript
 
-### Foi usado JavaScript puro para criar 3 funcionalidades do site: o menu mobile (Hamburguer), o menu acordion na página de perguntas, e o carrossel de imagens na página de produtos.
+### Foi usado JavaScript puro para criar 3 funcionalidades do site: o menu mobile (Hambúrguer), o menu acordeom na página de perguntas, e o carrossel de imagens na página de produtos.
+
 ### Foi minha primeira vez fazendo a funcionalidade de carrossel, e foi bem interessante intender seu funcionamento.
