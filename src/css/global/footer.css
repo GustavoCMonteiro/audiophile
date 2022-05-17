@@ -1,0 +1,129 @@
+.footer-color {
+  background-image: linear-gradient(to right, #fbc1bf 50%, #c7eae4 50%);
+}
+
+.footer-flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.footer-color h3 {
+  margin-bottom: 20px;
+}
+
+.footer-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-lista a:hover {
+  text-decoration: underline;
+}
+
+.contato-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.telefone {
+  position: relative;
+}
+
+.telefone::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: var(--primary-color);
+  bottom: -7px;
+}
+
+.redes-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.img-redes {
+  max-width: 30px;
+}
+
+.aside-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.aside-flex-redes {
+  display: flex;
+  gap: 20px;
+}
+
+.aside-redes-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+@media (max-width: 1440px) {
+  .footer-flex {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .footer-flex {
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  .redes-flex {
+    align-items: flex-start;
+  }
+  .aside-redes-flex {
+    flex-direction: row-reverse;
+  }
+  .aside-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer-color {
+    background-image: linear-gradient(to right, #c7eae4 50%, #c7eae4 50%);
+  }
+  .footer-flex {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .redes-flex {
+    gap: 20px;
+  }
+  .aside-flex {
+    display: block;
+    text-align: center;
+  }
+  .aside-redes-flex {
+    font-size: 1.25rem;
+  }
+  .aside-flex-redes {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .footer-lista,
+  .contato-flex {
+    font-size: 0.8rem;
+  }
+  .footer-color h3 {
+    margin-bottom: 10px;
+  }
+  .telefone::before {
+    width: 180px;
+  }
+}

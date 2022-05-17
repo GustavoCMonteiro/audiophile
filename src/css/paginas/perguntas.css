@@ -1,0 +1,63 @@
+.perguntas {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.acordion {
+  margin-top: 5px;
+  border-radius: 6px;
+}
+
+.acordion span {
+  color: var(--primary-color);
+  transform: rotate(45deg);
+}
+
+.acordion-text {
+  padding: 20px;
+}
+
+.perguntas h2 {
+  padding: 10px 20px;
+  border-radius: 5px 5px 0 0;
+  cursor: pointer;
+  text-indent: 2rem;
+  position: relative;
+}
+
+.perguntas h2::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  top: 22px;
+  left: 20px;
+}
+
+.perguntas h2::after {
+  content: "↓";
+  color: var(--primary-color);
+  transform: rotate(180deg);
+}
+
+.perguntas h2.show::after {
+  content: "↑";
+  color: var(--primary-color);
+  transform: rotate(180deg);
+}
+
+.perguntas p {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+  text-indent: 2rem;
+}
+
+.acordion-text.active {
+  display: block;
+}
+
+.acordion-text {
+  display: none;
+}

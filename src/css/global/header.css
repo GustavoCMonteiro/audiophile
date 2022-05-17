@@ -2,11 +2,10 @@
   max-width: 1440px;
   height: 70px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .logomarca {
-  width: 250px;
+  width: 200px;
 }
 
 .nav-flex {
@@ -42,7 +41,7 @@
 }
 
 .img-capa {
-  height: 500px;
+  height: 400px;
   width: 100%;
   object-fit: cover;
 }
@@ -50,4 +49,46 @@
 .titulo-principal {
   text-align: center;
   padding: 50px 0;
+  position: relative;
+}
+
+.titulo-principal::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 8px;
+  background-color: var(--primary-color);
+  bottom: 30px;
+}
+@media (max-width: 1440px) {
+  .container-header {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .img-capa {
+    height: 300px;
+  }
+  .titulo-principal {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .img-capa {
+    height: 200px;
+  }
+  .logomarca {
+    width: 150px;
+  }
+  .titulo-principal {
+    font-size: 2rem;
+    padding: 20px 0;
+  }
+  .titulo-principal::before {
+    width: 100px;
+    height: 5px;
+    bottom: 10px;
+  }
 }

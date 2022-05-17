@@ -1,0 +1,35 @@
+.sobre {
+  margin-bottom: 50px;
+}
+
+.sobre h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  max-width: 800px;
+  margin-bottom: 10px;
+  line-height: 1.3rem;
+  text-indent: 2rem;
+}
+
+@media (max-width: 1440px) {
+  .sobre {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .sobre {
+    margin-bottom: 20px;
+  }
+  .sobre h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  .sobre p {
+    font-size: 0.8rem;
+  }
+}

@@ -1,17 +1,21 @@
+/* globais */
 @import "./reset/reset.css";
 @import "./global/var.css";
 @import "./global/global.css";
+@import "./global/footer.css";
+@import "./global/header.css";
 
-@import "./nav/nav.css";
-@import "./index/index.css";
-@import "./index/footer.css";
+/* pag principal */
+@import "./paginas/index.css";
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
+/* pag produtos */
+@import "./paginas/produtos.css";
 
-body {
-  font-family: "IBM Plex Mono", monospace;
-  height: 2000px;
-}
+/* pag conheca mais */
+@import "./paginas/speakers.css";
+
+/* sobre */
+@import "./paginas/sobre.css";
+
+/* perguntas */
+@import "./paginas/perguntas.css";
