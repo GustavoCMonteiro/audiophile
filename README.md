@@ -32,6 +32,6 @@
 ### O Site está totalmente responsivo, para todos os tipos de dispositivos, tudo feito com um bom uso de flexbox e Grid Layout. Seguem abaixo videos do site em dispositivos móveis.
 <br>
 <div align="center">
-<img height="200em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20mobile%20gif1.gif"/>
-<img height="200em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20mobile%20gif2.gif"/>
+<img height="500em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20mobile%20gif1.gif"/>
+<img height="500em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20mobile%20gif2.gif"/>
 </div>
