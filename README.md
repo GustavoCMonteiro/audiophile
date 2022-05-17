@@ -1,7 +1,6 @@
 # Projeto Pessoal site de disopsitivos de audio!
   
 ## Tecnologias Utilizadas
-
 <div>
   <a href="https://github.com/GustavoCMonteiro">
     <img height="30em" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
