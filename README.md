@@ -14,5 +14,6 @@
   
  
 ### Descrição
- 
+<div width="400px">
 #### Projeto desenvolvido para colocar em teste os meus conhecimentos em HTML, CSS, e JavaScript, Utilizando um tema do qual sou familizariado.
+</div>
