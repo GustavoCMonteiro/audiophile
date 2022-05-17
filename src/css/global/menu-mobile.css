@@ -1,0 +1,117 @@
+[data-menu="button"] {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .menu-button.desactive {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .menu-button.desactive::before {
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 40px;
+    background-color: var(--primary-color);
+    box-shadow: 0 13px var(--primary-color), 0 -13px var(--primary-color);
+    animation: clickMenu 1s forwards;
+  }
+
+  .menu-button.active {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .menu-button.active::before {
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 40px;
+    transform: rotate(45deg);
+    background-color: var(--primary-color);
+    transition: transform 0.5s;
+    right: 10px;
+    position: absolute;
+    animation: clickMenu2 1s forwards;
+  }
+
+  .menu-button.active::after {
+    content: "";
+    display: inline-block;
+    height: 5px;
+    width: 40px;
+    transform: rotate(135deg);
+    background-color: var(--primary-color);
+    transition: transform 0.5s;
+    right: 10px;
+    position: absolute;
+    animation: clickMenu1 1s forwards;
+  }
+
+  .menu-flex {
+    display: none;
+    position: absolute;
+    width: 120px;
+    background-color: var(--bg-color-light);
+    z-index: 5;
+    top: 70px;
+    right: 0px;
+    padding: 10px 30px;
+  }
+
+  .menu-flex.active {
+    display: block;
+    animation: showMenu2 0.5s forwards;
+  }
+}
+
+@keyframes showMenu {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes clickMenu1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(135deg);
+  }
+}
+
+@keyframes clickMenu2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-135deg);
+  }
+}
+
+@keyframes clickMenu {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
