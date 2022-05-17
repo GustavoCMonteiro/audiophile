@@ -14,6 +14,6 @@
   
  
 ### Descrição
-<div width="20px">
-Projeto desenvolvido para colocar em teste os meus conhecimentos em HTML, CSS, e JavaScript, Utilizando um tema do qual sou familizariado.
-</div>
+
+#### Projeto desenvolvido com o objetivo de treinar os meus conhecimentos em HTML, CSS, e JavaScript, e tambem para servir de portifólio, demonstrando minhas habilidades na criação de uma página.
+
