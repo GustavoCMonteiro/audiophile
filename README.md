@@ -1,6 +1,6 @@
-## Projeto Pessoal site de disopsitivos de audio!
+# Projeto Pessoal site de disopsitivos de audio!
   
-### Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 <div>
   <a href="https://github.com/GustavoCMonteiro">
@@ -11,8 +11,8 @@
   </a>
 </div>  
   
- ### Link da Demo do site : [Audiophile](https://gustavocmonteiro.github.io/audiophile/)
+ ## Link da Demo do site : [Audiophile](https://gustavocmonteiro.github.io/audiophile/)
  
- ### Descrição
+ ## Descrição
  
- Projeto desenvolvido para colocar em teste os meus conhecimentos em HTML, CSS, e JavaScript.
+ ### Projeto desenvolvido para colocar em teste os meus conhecimentos em HTML, CSS, e JavaScript.
