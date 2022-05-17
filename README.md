@@ -11,5 +11,5 @@
   </a>
 </div>  
   
- ### Link da Demo do site : [Demo](https://gustavocmonteiro.github.io/audiophile/)
+ ### Link da Demo do site : [Audiophile](https://gustavocmonteiro.github.io/audiophile/)
  
