@@ -17,7 +17,7 @@
 
 ### Projeto desenvolvido com o objetivo de treinar os meus conhecimentos em HTML, CSS, e JavaScript, e tambem para servir de portifólio, demonstrando minhas habilidades na criação de uma página.
 
-## Criação e Prototypo
+## Criação e Prototipo
 
 ### Toda a parte de Design foi feita por mim, busca de referências, escolha de imagens, escolha de cores, tipografia, layout, etc. Segue um pequeno vídeo mostrando a prancheta do Figma.
 
@@ -36,3 +36,9 @@
   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
   <img height="500em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20mobile%20gif2.gif"/>
 </div>
+<br>
+
+## JavaScript
+
+### Foi usado JavaScript puro para criar 3 funcionalidades do site: o menu mobile (Hamburguer), o menu acordion na página de perguntas, e o carrossel de imagens na página de produtos.
+### Foi minha primeira vez fazendo a funcionalidade de carrossel, e foi bem interessante intender seu funcionamento.
