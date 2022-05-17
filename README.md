@@ -21,7 +21,8 @@
 
 #### Toda a parte de Design foi feita por mim, busca de referências, escolha de imagens, escolha de cores, tipografia, layout, etc. Segue um pequeno vídeo mostrando a prancheta do Figma.
 
-<img height="200em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20figma.gife"/>
+![](https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20figma.gif)
+<img height="200em" src="https://github.com/GustavoCMonteiro/audiophile/blob/main/src/github/audiophile%20figma.gif"/>
 
 
 #### HTML e JSS
