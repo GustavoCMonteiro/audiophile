@@ -1,0 +1,176 @@
+.contato {
+  background-image: linear-gradient(
+    var(--primary-color) 50%,
+    var(--bg-color) 50%
+  );
+}
+
+.contato-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  margin-bottom: 50px;
+}
+
+.form-contato {
+  padding: 30px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-email {
+  grid-column: 1/3;
+}
+
+.form-mensagem {
+  grid-column: 1/3;
+}
+
+.form-contato label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.25rem;
+}
+
+.form-contato input,
+.form-contato textarea {
+  background-color: var(--bg-color);
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-contato input:focus,
+.form-contato textarea:focus {
+  outline: none;
+  border-color: black;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.103);
+}
+
+.button-form {
+  width: 100px;
+  text-align: center;
+}
+
+.sac-contato {
+  padding: 20px;
+}
+
+.sac-contato h2 {
+  margin-bottom: 10px;
+}
+
+.sac-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.sac-horario {
+  margin-top: 30px;
+}
+
+.sac-redes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.img-redes {
+  max-width: 50px;
+}
+
+.local {
+  margin-top: 50px;
+}
+
+.local-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 40%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.local-endereco {
+  padding: 30px;
+}
+
+.local-endereco span {
+  display: block;
+}
+
+.local-endereco h2 {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1440px) {
+  .contato-grid {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contato-grid {
+    grid-template-columns: 1fr;
+  }
+  .local-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  .form-grid {
+    display: block;
+  }
+
+  .form-contato input,
+  .form-contato textarea {
+    margin-bottom: 10px;
+  }
+  .sac-contato h2 {
+    font-size: 1.5rem;
+  }
+  .sac-contato li {
+    font-size: 1rem;
+  }
+  .local-endereco {
+    padding: 10px 30px;
+  }
+
+  .local-endereco h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  .local-endereco span {
+    font-size: 1rem;
+  }
+  .contato-grid {
+    margin-bottom: 20px;
+  }
+  .local {
+    margin-top: 20px;
+  }
+  .local-grid {
+    gap: 10px;
+  }
+}

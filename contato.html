@@ -38,47 +38,94 @@
   <main>
     <div class="primary-color">
       <div class="container">
-        <h1 class="font-size-xl titulo-pag">Perguntas</h1>
+        <h1 class="font-size-xl titulo-pag">Contato</h1>
       </div>
     </div>
 
-    <section class="container text-color-dark">
-      <div class="perguntas">
-        <div class="acordion bg-color-dark">
-          <h2 class="font-size-m secondary-color show">Como Comprar?</h2>
-          <div class="acordion-text active">
-            <p class="text-color-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et rerum cum laboriosam hic sint recusandae commodi explicabo. Eaque asperiores debitis doloremque quasi eos velit sequi? Facilis nemo maxime voluptatem minus?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus id facere eius ipsam fuga dolorum aut quas quisquam. Quae rem neque ipsa earum vero id cupiditate nostrum provident non nisi.</p>
-          </div>
+    <section class="contato">
+      <div class="container contato-grid">
+        <div class="form-contato bg-color-light text-color-dark">
+          <form class="form-grid" action="">
+            <div class="form-nome">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+            </div>
+            <div class="form-telefone">
+              <label for="telefone">Telefone</label>
+              <input type="number" id="telefone" name="telefone" placeholder="(11) 99999-9999" required>
+            </div>
+            <div class="form-email">
+              <label for="email">Email</label>
+              <input type="number" id="email" name="email" placeholder="(11) 99999-9999" required>
+            </div>
+            <div class="form-mensagem">
+              <label for="mensagem">Mensagem</label>
+              <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+            </div>
+            <a class="button button-form" href="">Enviar</a>
+          </form>
         </div>
-        <div class="acordion bg-color-dark">
-          <h2 class="font-size-m secondary-color">Para onde enviamos?</h2>
-          <div class="acordion-text">
-            <p class="text-color-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea neque perferendis doloribus illo repudiandae dolor earum, voluptatum consequuntur error, veniam maiores nostrum corrupti. Alias possimus repudiandae quis, consectetur amet atque.</p>
-          </div>
-        </div>
-        <div class="acordion bg-color-dark">
-          <h2 class="font-size-m secondary-color">Possui garantia?</h2>
-          <div class="acordion-text">
-            <p class="text-color-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime numquam incidunt at corrupti harum voluptate officia exercitationem a, cumque odio deserunt magni nulla quod deleniti voluptatibus accusantium non quibusdam minus?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae autem nemo ab natus velit error iusto nesciunt odio cum, hic tempora dolore mollitia cupiditate iure placeat sed nisi suscipit dolores.</p>
-          </div>
-        </div>
-        <div class="acordion bg-color-dark">
-          <h2 class="font-size-m secondary-color">Posso testar?</h2>
-          <div class="acordion-text">
-            <p class="text-color-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia perspiciatis iusto, fuga vitae modi itaque error harum ad delectus ipsa est ullam veritatis voluptatum. Sapiente nihil magnam labore esse est?Lorem ipsum dolor sit amet consectetur.</p>
-            <p class="text-color-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi minima voluptatum adipisci eveniet illo doloribus, quae in ut corrupti quia odio qui, voluptatibus magni. Placeat veniam laboriosam aut culpa natus.</p>
-          </div>
-        </div>
-        <div class="acordion bg-color-dark">
-          <h2 class="font-size-m secondary-color">Forma de pagamento?</h2>
-          <div class="acordion-text">
-            <p class="text-color-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint illum eius odio. Perspiciatis architecto dicta ipsa quae, inventore enim, doloremque natus, omnis ab repudiandae in tempora maxime saepe nihil quam.Lo</p>
+
+
+        <div class="sac-contato bg-color-dark">
+          <h2 class="font-size-m text-color-light">Sac</h2>
+          <ul class="sac-lista font-size-xs text-color-light">
+            <li>vendas@audiophile.com.br</li>
+            <li>suporte@audiophile.com.br</li>
+            <li>+55 (11) 99999-9999</li>
+          </ul>
+          <h2 class="font-size-s text-color-light sac-horario">Horarios:</h2>
+          <ul class="sac-lista font-size-xs text-color-light">
+            <li>Seg/Sex - 8h às 18h</li>
+            <li>Sáb - 9h às 12h</li>
+          </ul>
+          <div class="sac-redes">
+            <a class="sac-redes-icon" href="">
+              <img class="img-redes" src="src/imgs/png/facebook white.png" alt="">
+            </a>
+            <a class="" href="">
+              <img class="img-redes" src="src/imgs/png/instagram white.png" alt="">
+            </a>
+            <a class="" href="">
+              <img class="img-redes" src="src/imgs/png/twitter white.png" alt="">
+            </a>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
+    <div class="container">
+      <h1 class="font-size-xl titulo-pag">Lojas Físicas</h1>
+    </div>
 
+    <section class="local">
+      <div class="container local-grid text-color-dark">
+        <div class="loja-vila">
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7313.197403811612!2d-46.588941000607115!3d-23.58285204309307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5c1270a396c9%3A0x3a1e025b790373b8!2sVila%20Prudente!5e0!3m2!1spt-BR!2sbr!4v1652754572648!5m2!1spt-BR!2sbr" width="720" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="local-endereco">
+            <h2 class="font-size-m">Vila Prudente</h2>
+            <span class="font-size-xs">Rua Qualquer coisa, 666</span>
+            <span class="font-size-xs">Próximo do metro</span>
+            <span class="font-size-xs">São Paulo - SP</span>
+          </div>
+        </div>
+
+        <div class="loja-barra">
+          <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7316.289336439455!2d-46.66990812217961!3d-23.527298593311347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5803ffc85a79%3A0xfc31541fa60a201a!2sPalmeiras%20-%20Barra%20Funda!5e0!3m2!1spt-BR!2sbr!4v1652754740655!5m2!1spt-BR!2sbr" width="720" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="local-endereco">
+            <h2 class="font-size-m">Barra Funda</h2>
+            <span class="font-size-xs">Rua Qualquer coisa, 666</span>
+            <span class="font-size-xs">Próximo do metro</span>
+            <span class="font-size-xs">São Paulo - SP</span>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
 
