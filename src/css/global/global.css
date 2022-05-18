@@ -1,5 +1,7 @@
 body {
   font-family: "IBM Plex Mono", monospace;
+  position: relative;
+  min-height: 100vh;
 }
 
 a {

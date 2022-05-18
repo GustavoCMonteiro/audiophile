@@ -2,6 +2,12 @@
   background-image: linear-gradient(to right, #fbc1bf 50%, #c7eae4 50%);
 }
 
+.footer-height {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 .footer-flex {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
