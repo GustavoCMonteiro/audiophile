@@ -78,6 +78,12 @@
   gap: 10px;
 }
 
+@media (max-height: 900px) {
+  .footer-height {
+    position: relative;
+  }
+}
+
 @media (max-width: 1440px) {
   .footer-flex {
     padding: 10px;
